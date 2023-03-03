@@ -1,8 +1,19 @@
+@import './modules/reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 @import './modules/variables';
 @import './modules/header';
+@import './modules/highlight';
+
+* {
+    font-family: 'Inter', sans-serif;
+    // white-space: pre-wrap;
+    box-sizing: border-box;
+}
 
 body {
-    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
     display: grid;
+    gap: 3rem;
+    padding: 5rem 8rem;
+    background-color: $Off-white;
 }

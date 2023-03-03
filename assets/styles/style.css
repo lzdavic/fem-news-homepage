@@ -1,14 +1,61 @@
+@import './modules/reset.css';
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 header {
   display: flex;
   justify-content: space-between;
+}
+header img {
+  height: 3rem;
 }
 header nav > ul {
   display: flex;
   gap: 1rem;
 }
 
-body {
-  min-height: 100vh;
+.highlight {
   display: grid;
+  grid-template: 2fr 1fr/1fr 1fr;
+  gap: 3rem;
+}
+.highlight img {
+  grid-area: 1/1/2/3;
+  max-width: 100%;
+}
+.highlight h2 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+.highlight div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.highlight div p {
+  font-size: 1rem;
+  color: hsl(236, 13%, 42%);
+}
+.highlight div button {
+  background-color: hsl(5, 85%, 63%);
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  color: hsl(36, 100%, 99%);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: grid;
+  gap: 3rem;
+  padding: 5rem 8rem;
+  background-color: hsl(36, 100%, 99%);
 }/*# sourceMappingURL=style.css.map */

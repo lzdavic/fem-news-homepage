@@ -1,0 +1,40 @@
+.highlight {
+    display: grid;
+    grid-template: 2fr 1fr / 1fr 1fr;
+    gap: 3rem;
+        
+    img {
+        grid-area: 1 / 1 / 2 / 3;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+        font-weight: 800;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+        
+        p {
+            font-size: 1rem;
+            color: $Dark-grayish-blue;
+        }
+
+        button {
+            background-color: $Soft-red;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            outline: none;
+            border: none;
+            color: $Off-white;
+            letter-spacing: 0.5rem;
+            text-transform: uppercase;
+        }
+    }
+}
+
