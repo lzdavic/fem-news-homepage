@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     grid-area: 1 / 1 / 2 / 4;
 
     img {
@@ -9,6 +10,11 @@ header {
 
     nav > ul {
         display: flex;
-        gap: 1rem;
+        gap: 3rem;
+
+        a {
+            text-decoration: none;
+            color: $Dark-grayish-blue;
+        }
     }
 }
