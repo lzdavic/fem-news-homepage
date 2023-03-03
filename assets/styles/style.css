@@ -1,1 +1,14 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header nav > ul {
+  display: flex;
+  gap: 1rem;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+}/*# sourceMappingURL=style.css.map */
