@@ -3,10 +3,11 @@
 @import './modules/variables';
 @import './modules/header';
 @import './modules/highlight';
+@import './modules/new';
+@import './modules/bottom';
 
 * {
     font-family: 'Inter', sans-serif;
-    // white-space: pre-wrap;
     box-sizing: border-box;
 }
 
@@ -14,6 +15,6 @@ body {
     font-family: 'Inter', sans-serif;
     display: grid;
     gap: 3rem;
-    padding: 5rem 8rem;
+    padding: 8rem;
     background-color: $Off-white;
 }

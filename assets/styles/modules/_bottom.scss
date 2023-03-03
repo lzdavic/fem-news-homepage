@@ -1,0 +1,36 @@
+.bottom {
+    grid-area: 3 / 1 / 4 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+
+        img {
+            grid-area: 1 / 1 / 4 / 2;
+            max-width: 100%;
+        }
+
+        .number {
+            grid-area: 1 / 2 / 2 / 3;
+            color: $Grayish-blue;
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            grid-area: 2 / 2 / 3 / 3;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .text {
+            grid-area: 3 / 2/ 4 / 3;
+            color: $Dark-grayish-blue;
+            line-height: 2em;
+        }
+    }
+}
