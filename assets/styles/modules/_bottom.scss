@@ -12,6 +12,10 @@
         img {
             grid-area: 1 / 1 / 4 / 2;
             max-width: 100%;
+
+            &:hover {
+                filter: brightness(1.2) saturate(0.5);
+            }
         }
 
         .number {
@@ -25,6 +29,11 @@
             grid-area: 2 / 2 / 3 / 3;
             font-weight: 700;
             font-size: 1.25rem;
+
+            &:hover {
+                color: $Soft-red;
+                cursor: pointer;
+            }
         }
 
         .text {

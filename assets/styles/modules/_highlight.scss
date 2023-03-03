@@ -7,6 +7,10 @@
     img {
         grid-area: 1 / 1 / 2 / 3;
         max-width: 100%;
+
+        &:hover {
+            filter: brightness(1.2) saturate(0.5);
+        }
     }
 
     h2 {
@@ -36,6 +40,11 @@
             color: $Off-white;
             letter-spacing: 0.25rem;
             text-transform: uppercase;
+
+            &:hover {
+                background-color: $Very-dark-blue;
+                cursor: pointer;
+            }
         }
     }
 }

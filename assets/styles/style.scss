@@ -9,6 +9,7 @@
 * {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    transition: 300ms;
 }
 
 body {
@@ -17,4 +18,8 @@ body {
     gap: 3rem;
     padding: 8rem;
     background-color: $Off-white;
+}
+
+* img:hover {
+    filter: brightness(1.2), saturate(0.5);
 }

@@ -8,13 +8,20 @@ header {
         height: 3rem;
     }
 
-    nav > ul {
+        ul {
         display: flex;
         gap: 3rem;
 
-        a {
-            text-decoration: none;
-            color: $Dark-grayish-blue;
+        li {
+            a {
+                text-decoration: none;
+                color: $Dark-grayish-blue;
+    
+                &:hover {
+                    cursor: pointer;
+                    color: $Soft-red;
+                }
+            }
         }
     }
 }

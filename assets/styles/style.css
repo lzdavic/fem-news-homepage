@@ -9,13 +9,17 @@ header {
 header img {
   height: 3rem;
 }
-header nav > ul {
+header ul {
   display: flex;
   gap: 3rem;
 }
-header nav > ul a {
+header ul li a {
   text-decoration: none;
   color: hsl(236, 13%, 42%);
+}
+header ul li a:hover {
+  cursor: pointer;
+  color: hsl(5, 85%, 63%);
 }
 
 .highlight {
@@ -27,6 +31,9 @@ header nav > ul a {
 .highlight img {
   grid-area: 1/1/2/3;
   max-width: 100%;
+}
+.highlight img:hover {
+  filter: brightness(1.2) saturate(0.5);
 }
 .highlight h2 {
   font-size: 3.5rem;
@@ -54,6 +61,10 @@ header nav > ul a {
   letter-spacing: 0.25rem;
   text-transform: uppercase;
 }
+.highlight div button:hover {
+  background-color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
 
 .new {
   grid-area: 2/3/3/4;
@@ -72,6 +83,11 @@ header nav > ul a {
 .new h3 {
   font-weight: 800;
   font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.new h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
 .new p {
   color: hsl(233, 8%, 79%);
@@ -96,6 +112,9 @@ header nav > ul a {
   grid-area: 1/1/4/2;
   max-width: 100%;
 }
+.bottom div img:hover {
+  filter: brightness(1.2) saturate(0.5);
+}
 .bottom div .number {
   grid-area: 1/2/2/3;
   color: hsl(233, 8%, 79%);
@@ -107,6 +126,10 @@ header nav > ul a {
   font-weight: 700;
   font-size: 1.25rem;
 }
+.bottom div h2:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
 .bottom div .text {
   grid-area: 3/2/4/3;
   color: hsl(236, 13%, 42%);
@@ -116,6 +139,7 @@ header nav > ul a {
 * {
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
+  transition: 300ms;
 }
 
 body {
@@ -124,4 +148,8 @@ body {
   gap: 3rem;
   padding: 8rem;
   background-color: hsl(36, 100%, 99%);
+}
+
+* img:hover {
+  filter: brightness(1.2), saturate(0.5);
 }/*# sourceMappingURL=style.css.map */
