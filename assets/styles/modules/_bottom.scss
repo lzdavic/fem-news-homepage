@@ -43,3 +43,10 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    .bottom {
+        grid-area: 3 / 2 / 4 / 3;
+        grid-template-columns: unset;
+    }
+}

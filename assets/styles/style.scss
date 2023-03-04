@@ -20,6 +20,8 @@ body {
     background-color: $Off-white;
 }
 
-* img:hover {
-    filter: brightness(1.2), saturate(0.5);
+@media screen and (max-width: 900px){
+    body {
+        padding: 2rem;
+    }
 }

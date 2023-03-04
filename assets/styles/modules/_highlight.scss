@@ -49,3 +49,9 @@
     }
 }
 
+
+@media screen and (max-width: 900px) {
+    .highlight {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+}

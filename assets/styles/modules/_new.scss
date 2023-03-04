@@ -33,3 +33,9 @@
         border-color: $Dark-grayish-blue;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .new {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+}
