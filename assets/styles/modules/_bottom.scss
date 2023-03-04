@@ -50,3 +50,9 @@
         grid-template-columns: unset;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .bottom {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+}

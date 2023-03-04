@@ -39,3 +39,10 @@
         grid-area: 3 / 1 / 4 / 2;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .new {
+        grid-area: 3 / 1 / 4 / 2;
+        gap: 1rem;
+    }
+}

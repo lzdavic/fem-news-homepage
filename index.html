@@ -14,6 +14,7 @@
 
   <header>
     <img src="assets/images/logo.svg" alt="W. logo">
+    <button id="dropdown"></button>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -26,7 +27,10 @@
   </header>
 
   <section class="highlight">
-    <img src="assets/images/image-web-3-desktop.jpg" alt="">
+    <picture>
+      <source media="(max-width: 650px)" srcset="./assets/images/image-web-3-mobile.jpg" />
+      <img src="assets/images/image-web-3-desktop.jpg" alt="">
+    </picture>
     <h2>
       The Bright Future of Web 3.0?
     </h2>
