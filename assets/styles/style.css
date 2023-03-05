@@ -9,15 +9,24 @@ header {
 header img {
   height: 3rem;
 }
-header ul {
+header button {
+  display: none;
+}
+header nav {
+  display: block;
+}
+header nav button {
+  display: none;
+}
+header nav ul {
   display: flex;
   gap: 3rem;
 }
-header ul li a {
+header nav ul li a {
   text-decoration: none;
   color: hsl(236, 13%, 42%);
 }
-header ul li a:hover {
+header nav ul li a:hover {
   cursor: pointer;
   color: hsl(5, 85%, 63%);
 }
@@ -30,12 +39,46 @@ header ul li a:hover {
 @media screen and (max-width: 650px) {
   header {
     grid-area: 1/1/2/2;
+    white-space: nowrap;
   }
   header img {
     height: 2rem;
   }
-  a {
+  header button {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  header button img {
+    height: 1.5rem;
+  }
+  header nav {
     display: none;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    padding: 2rem;
+    width: 60vw;
+    height: 110vh;
+    background-color: hsl(36, 100%, 99%);
+  }
+  header nav::before {
+    content: "a";
+    color: transparent;
+    position: absolute;
+    width: 45vw;
+    left: -75%;
+    top: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3333333333);
+  }
+  header nav button {
+    background-color: transparent;
+    display: block;
+    margin: 0 0 2rem auto;
+  }
+  header nav ul {
+    flex-direction: column;
   }
 }
 .highlight {
@@ -213,7 +256,7 @@ body {
 
 @media screen and (max-width: 900px) {
   body {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 @media screen and (max-width: 650px) {
