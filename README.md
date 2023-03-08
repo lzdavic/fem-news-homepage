@@ -9,9 +9,8 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Added](#added)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,8 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Wonking on it](###)
 
 ## My process
 
@@ -37,9 +35,10 @@ Users should be able to:
 - CSS Grid
 - SCSS
 
+### Added
+- Tablet layout responsivity
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Linkedin - [Luiz Davi Camargos Cardoso](https://www.linkedin.com/in/luiz-davi-camargos-cardoso/)
+- Frontend Mentor - [@lzdavic](https://www.frontendmentor.io/profile/lzdavic)
